@@ -1,0 +1,64 @@
+.inputPost{
+    width: 600px;
+    height:fit-content;
+    background-color: #ffffff;
+    margin:20px 0;
+    padding:20px 0;
+    border:1px solid #efefef;
+   
+}
+
+ .input_post_form > form {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.inputPost__input{
+    width:500px;
+    height:36px;
+    
+    border:1px solid #efefef;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size:12px;
+    margin:0;
+    padding:9px 0 7px 8px;
+    outline:none;
+    overflow:hidden;
+    box-sizing: border-box;
+    
+    
+}
+.button-post{
+    cursor: pointer;
+    width: 250px;
+    padding:0 8px;
+    background: #3897f0;
+    border:1px solid #3897f0;
+    color:#fff;
+    border-radius:3px;
+    font-weight:600;
+    font-size: 14px;
+    height: 28px;
+    line-height: 26px;
+    outline: none;
+    white-space: nowrap;
+}
+@media only screen and (max-width: 480px){
+    .inputPost{
+       padding:10px;
+       display:grid;
+       place-items: center;
+       width:fit-content;
+    }
+    .inputPost__input{
+        width:200px;
+    }
+    .fileInput{
+        margin-left: 100px;
+    }
+    .button-post{
+        width: 100px!important;
+    }
+}
